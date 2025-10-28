@@ -54,7 +54,7 @@ main {
 main h1 {
   border-top: 2px solid var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -91,3 +91,4 @@ footer p {
   text-align: center;
   font-weight: bold;
 }
+
