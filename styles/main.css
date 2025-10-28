@@ -1,9 +1,11 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Default padding for headings, paragraphs, lists */
 h1, h2, h3, p, ul {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -13,6 +15,7 @@ ul {
   margin-left: 2em;
 }
 
+/* Body */
 body {
   width: 80%;
   margin: auto;
@@ -20,11 +23,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Header */
 header {
   border-bottom: 2px solid #4d0080;
   background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
   padding: 1em;
-  overflow: auto; 
 }
 
 header img {
@@ -32,7 +35,7 @@ header img {
 }
 
 header h2 {
-  color: #4d0080; 
+  color: #4d0080;
   font-size: 2em;
   padding-bottom: 0;
 }
@@ -42,6 +45,7 @@ header h3 {
   padding-bottom: 1em;
 }
 
+/* Main */
 main {
   padding: 0 1em 1em 1em;
 }
@@ -61,18 +65,21 @@ main h3 {
   color: #4d0080;
 }
 
+/* Blockquote */
 blockquote {
   font-style: italic;
   padding: 1em 2em;
 }
 
+/* Speaker images */
 main img {
   border: 4px double #4d0080;
   border-radius: 10px;
-  display: block; 
+  display: block;
   margin: 0.5em 0;
 }
 
+/* Footer */
 footer {
   background-color: #4d0080;
 }
