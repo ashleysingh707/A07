@@ -1,11 +1,9 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Default padding for headings, paragraphs, lists */
 h1, h2, h3, p, ul {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -15,7 +13,6 @@ ul {
   margin-left: 2em;
 }
 
-/* Body */
 body {
   width: 80%;
   margin: auto;
@@ -23,7 +20,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Header */
 .header-container {
   display: flex;
   align-items: center;
@@ -44,19 +40,16 @@ body {
   font-size: 1.5em;
 }
 
-/* Header bottom border and gradient */
 header {
   border-bottom: 2px solid #4d0080;
   background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
   padding: 1em;
 }
 
-/* Main */
 main {
   padding: 0 1em 1em 1em;
 }
 
-/* Section headings */
 main h2 {
   color: #4d0080;
   font-size: 1.8em;
@@ -74,19 +67,16 @@ main h1 {
   margin-bottom: 1em;
 }
 
-/* Month labels for speakers */
 .month {
   font-weight: bold;
   font-size: 1.2em;
 }
 
-/* Blockquote */
 blockquote {
   font-style: italic;
   padding: 1em 2em;
 }
 
-/* Speaker images */
 main img {
   border: 4px double #4d0080;
   border-radius: 10px;
@@ -94,7 +84,6 @@ main img {
   margin: 0.5em 0;
 }
 
-/* Footer */
 footer {
   background-color: #4d0080;
 }
@@ -105,3 +94,4 @@ footer p {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
