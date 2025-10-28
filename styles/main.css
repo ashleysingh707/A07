@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 h1, h2, h3, p, ul {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -26,25 +25,19 @@ header {
   border-bottom: 2px solid #4d0080;
   background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
   padding: 1em;
-  overflow: auto;
 }
 
 header img {
-  float: left;
   margin: 0.75em 1em;
 }
 
 header h2 {
-  color: #800080;
-  font-size: 2em;
   padding-bottom: 0;
 }
 
 header h3 {
-  font-style: italic;
   padding-bottom: 1em;
 }
-
 
 main {
   padding: 0 1em 1em 1em;
@@ -53,23 +46,20 @@ main {
 main h1 {
   border-top: 2px solid #4d0080;
   border-bottom: 2px solid #4d0080;
-  color: #4d0080;
+  text-align: left;
 }
-
 
 main img {
   border: 4px double #4d0080;
   border-radius: 10px;
-  float: left;
-  margin: 0.5em 1em 0.5em 0;
+  display: block;
+  margin: 0.5em 0;
 }
-
 
 blockquote {
   font-style: italic;
   padding: 1em 2em;
 }
-
 
 footer {
   background-color: #4d0080;
@@ -78,5 +68,6 @@ footer {
 footer p {
   color: white;
   text-align: center;
-  padding: 1em 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
