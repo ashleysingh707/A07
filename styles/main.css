@@ -1,94 +1,54 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-h1, h2, h3, p, ul {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
-
-ul {
-  margin-left: 2em;
-}
-
-
-:root {
-  --accent-color: #4d0080; 
-}
-
 body {
-  width: 80%;
-  margin: auto;
-  border: 2px solid var(--accent-color);
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333333;
+    margin: 0;
+    padding: 0;
 }
-
 
 header {
-  border-bottom: 2px solid var(--accent-color);
-  background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
-  padding: 1em;
+    background-color: #4d0080;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
 
 header img {
-  margin: 0.75em 1em;
+    width: 80px;
+    vertical-align: middle;
 }
 
-header h2 {
-  padding-bottom: 0;
+header h1 {
+    display: inline;
+    margin-left: 10px;
+    font-size: 2em;
 }
-
-header h3 {
-  padding-bottom: 1em;
-}
-
 
 main {
-  padding: 0 1em 1em 1em;
+    width: 80%;
+    margin: 1em auto;
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-main h1 {
-  border-top: 2px solid var(--accent-color);
-  border-bottom: 2px solid var(--accent-color);
-  text-align: left;
+h2 {
+    color: #4d0080;
 }
 
-
-main img {
-  border: 4px double var(--accent-color);
-  border-radius: 10px;
-  display: block;
-  margin: 0.5em auto;
+img {
+    border: 4px double #4d0080;
+    border-radius: 10px;
+    display: block;
+    margin: 0.5em 0;
+    width: 250px;
 }
-
-
-blockquote {
-  font-style: italic;
-  padding: 1em 2em;
-}
-
 
 footer {
-  background-color: var(--accent-color);
+    background-color: #4d0080;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 0.9em;
 }
-
-footer p {
-  color: white;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: center;
-}
-
-
-#season-guests {
-  border: 4px double var(--accent-color);
-  border-radius: 10px;
-  padding: 0.5em;
-  text-align: center;
-  font-weight: bold;
-}
-
