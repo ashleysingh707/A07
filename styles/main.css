@@ -50,11 +50,12 @@ main h1 {
 }
 
 main img {
-    border: 4px double #4d0080;
-    border-radius: 10px;
-    display: inline-block;
-    margin: 0.5em 0; 
+  border: 4px double #4d0080;
+  border-radius: 10px;
+  display: block;
+  margin: 0.5em 0;
 }
+
 
 blockquote {
   font-style: italic;
@@ -71,4 +72,5 @@ footer p {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
 
