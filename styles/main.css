@@ -15,7 +15,6 @@ ul {
   margin-left: 2em;
 }
 
-
 body {
   width: 80%;
   margin: auto;
@@ -23,11 +22,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
 header {
   border-bottom: 2px solid #4d0080;
   background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
   padding: 1em;
+  overflow: auto;
 }
 
 header img {
@@ -79,6 +78,5 @@ footer {
 footer p {
   color: white;
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em 0;
 }
